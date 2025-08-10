@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-          Try <a href="./test.js">test.js</a>
+          Try <a href="./test">test.js</a>
         </p>
       </main>
 
