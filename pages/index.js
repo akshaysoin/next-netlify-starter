@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-          This is the landing page!<br>
+          This is the landing page!
           Try <a href="./test">test.js</a>
         </p>
       </main>
