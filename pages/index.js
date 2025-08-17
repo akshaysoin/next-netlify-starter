@@ -28,6 +28,7 @@ export default function Home() {
             console.log("Initializing MOPO agent for the first time.");
           }
           </script>
+            
       </Head>
 
       <main>
