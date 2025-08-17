@@ -9,9 +9,9 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <script type="text/javascript">
+         <script type="text/javascript">
           // A unique global variable to act as a flag
-          const MOPO_AGENT_LOADED_FLAG = 'window.MOPO_AgentLoaded';
+          const MOPO_AGENT_LOADED_FLAG = 'MOPO_AgentLoaded';
       
           // Check if the flag is already set in the top-level window.
           // window.top refers to the highest window in the hierarchy.
