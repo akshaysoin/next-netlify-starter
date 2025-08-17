@@ -10,6 +10,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         <script
+          id="mopo_agent_embed_script"
+          type="text/javascript"
+          src="https://devagent.mopo.life/chat_assets/embed.js?url=https://mak.com"
+          crossorigin
+        >
           // A unique global variable to act as a flag
           const MOPO_AGENT_LOADED_FLAG = 'window.MOPO_AgentLoaded';
   
@@ -20,15 +25,9 @@ export default function Home() {
           } else {
             // Set the flag to indicate the agent is now loading.
             window.top[MOPO_AGENT_LOADED_FLAG] = true;
-  
-            id="mopo_agent_embed_script"
-            type="text/javascript"
-            src="https://devagent.mopo.life/chat_assets/embed.js?url=https://mak.com"
-            crossorigin
             console.log("Initializing MOPO agent for the first time.");
           }
-        ></script>
-
+          </script>
       </Head>
 
       <main>
