@@ -27,7 +27,7 @@ export default function Home() {
                   script.id = 'mopo_agent_embed_script';
                   script.type = 'text/javascript';
                   script.src = 'https://devagent.mopo.life/chat_assets/embed.js?url=https://mak.com';
-                  script.crossOrigin = '';
+                  script.crossOrigin = ' ';
                   document.head.appendChild(script);
                 } else {
                   //Skip loading agent as it is already loaded
