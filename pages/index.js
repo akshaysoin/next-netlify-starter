@@ -12,6 +12,7 @@ export default function Home() {
         <script 
           dangerouslySetInnerHTML={{
             __html: ` //There is a quote on this line!
+            <iframe>
               (function() {
                 // A unique global variable to act as a flag
                 const MOPO_AGENT_LOADED_FLAG = 'MOPO_AgentLoaded';
@@ -34,6 +35,7 @@ export default function Home() {
                   console.log("MOPO Agent already loaded. Preventing recursion.");
                 }
               })();
+            </iframe>
             ` //There is a quote on this line!
           }}
         />
