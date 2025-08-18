@@ -12,7 +12,7 @@ export default function Home() {
         <script
           id="mopo_agent_embed_script"
           type="text/javascript"
-          src="./embed?url=https://mak.com"
+          src="https://avstest.netlify.app/embed?url=https://mak.com"
           crossorigin
         ></script>
             
