@@ -12,7 +12,7 @@ export default function Home() {
         <script
           id="mopo_agent_embed_script"
           type="text/javascript"
-          src="./embed.js?url=https://mak.com"
+          src="./embed?url=https://mak.com"
           crossorigin
         ></script>
           
